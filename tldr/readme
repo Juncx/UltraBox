@@ -1,0 +1,9 @@
+;INSTALL
+curl -o /usr/local/bin/tldr https://raw.githubusercontent.com/raylee/tldr/master/tldr
+chmod +x /usr/local/bin/tldr
+;add below to .bashrc
+export TLDR_HEADER='magenta bold underline'
+export TLDR_QUOTE='italic'
+export TLDR_DESCRIPTION='green'
+export TLDR_CODE='red'
+export TLDR_PARAM='blue'

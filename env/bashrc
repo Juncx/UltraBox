@@ -16,5 +16,15 @@ export PATH=$PATH:/usr/local/go/bin
 export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/usr/local/boost/include
 export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/boost/lib
 
+#autojump
+[[ -s /root/.autojump/etc/profile.d/autojump.sh ]] && source /root/.autojump/etc/profile.d/autojump.sh
+
+#tldr
+export TLDR_HEADER='magenta bold underline'
+export TLDR_QUOTE='italic'
+export TLDR_DESCRIPTION='green'
+export TLDR_CODE='red'
+export TLDR_PARAM='blue'
+
 alias vi=vim
 alias gg='g++ -std=c++11'
