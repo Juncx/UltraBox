@@ -1,0 +1,6 @@
+INSTALL
+wget https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Graph-Easy-0.76.tar.gz
+yum install perl perl-ExtUtils-MakeMaker graphviz
+perl Makefile.PL
+make
+make install
