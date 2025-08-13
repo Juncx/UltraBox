@@ -21,6 +21,7 @@ Plugin 'dyng/ctrlsf.vim'
 Plugin 'derekwyatt/vim-fswitch'
 Plugin 'Yggdroot/LeaderF'
 "Plugin 'vim-airline/vim-airline'
+Plugin 'nsf/gocode', {'rtp': 'nvim/'}
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
